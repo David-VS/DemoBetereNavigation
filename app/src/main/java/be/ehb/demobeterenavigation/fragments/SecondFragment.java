@@ -38,6 +38,7 @@ public class SecondFragment extends Fragment {
             myBundle.putInt("pincode", 8965);
             NavHostFragment.findNavController(SecondFragment.this)
                     .navigate(R.id.action_SecondFragment_to_ThirdFragment2, myBundle);
+
         });
     }
 
